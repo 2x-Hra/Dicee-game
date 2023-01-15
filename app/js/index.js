@@ -4,3 +4,7 @@ var image = images[randomNumber1-1];
 var imageValue = "images/" + image + ".png";
 document.querySelector(".img1").setAttribute("src", imageValue);
 
+var randomNumber2 = Math.floor(Math.random() * 6) + 1;
+image = images[randomNumber2-1];
+imageValue = "images/" + image + ".png";
+document.querySelector(".img2").setAttribute("src", imageValue);
